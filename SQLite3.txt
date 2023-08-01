@@ -17,3 +17,8 @@ Při ukončení práce s databází je důležité zavřít spojení pomocí met
 
 Díky tomu, že SQLite je vestavěná databáze, nemusíte instalovat žádný samostatný server nebo software.
 Stačí, že máte Python nainstalovaný a můžete začít vytvářet a pracovat s databázemi SQLite.
+
+Tutorial: např.
+https://www.digitalocean.com/community/tutorials/how-to-use-the-sqlite3-module-in-python-3
+https://www.sqlitetutorial.net/
+https://www.tutorialspoint.com/sqlite/index.htm
