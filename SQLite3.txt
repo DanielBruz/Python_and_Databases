@@ -1,0 +1,19 @@
+Pro práci s modulem sqlite3 v Pythonu nemusíte na svém počítači instalovat žádnou samostatnou databázi.
+Modul sqlite3 je součástí standardní knihovny Pythonu a obsahuje vestavěnou podporu pro práci s databází SQLite.
+SQLite je jednoduchá a lehká relační databáze, která je často používána pro lokální účely nebo malé projekty,
+protože je jednoduchá na použití a nevyžaduje žádné externí servery nebo konfigurace.
+Databáze SQLite ukládá data do jednoho souboru, což zjednodušuje její používání.
+
+Pokud máte nainstalovaný Python, pak máte také dostupný modul sqlite3.
+Stačí jej importovat do svého kódu a můžete začít pracovat s SQLite databází:
+
+import sqlite3
+
+# Vaše kód pro práci s databází zde
+
+Pokud potřebujete vytvořit nebo přistupovat ke konkrétní SQLite databázi, vytvoříte spojení k databázi pomocí
+třídy sqlite3.connect() a následně provádíte dotazy a manipulaci s databází pomocí tohoto spojení.
+Při ukončení práce s databází je důležité zavřít spojení pomocí metody close().
+
+Díky tomu, že SQLite je vestavěná databáze, nemusíte instalovat žádný samostatný server nebo software.
+Stačí, že máte Python nainstalovaný a můžete začít vytvářet a pracovat s databázemi SQLite.
